@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <script>
+
+        // FORMATANDO STRINGS
+        // s.lenght -> comprimento da string
+        // s.toUpperCase -> para converter maiusculas
+        // s.toLowerCase -> minusculas
+        // n.toFixed(2) -> para 2 casas decimais
+        // n.toFixed(2).replace('.', ',') -> pra substituir ponto por vírgula
+        // n.toLocaleString('pt-BR', {style: 'currency', currency :'BRL'})
+        var nome = window.prompt('Digite seu nome: ')
+        document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras. <br/>`)
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}. <br/>`)
+        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}. <br/>`)
+
+        var salario = Number(window.prompt('Digite seu salário: '))
+        document.write(`Seu salário é ${salario.toLocaleString('pt-BR', {style: 'currency', currency :'BRL'})}`)
+    </script>
+</body>
+</html>

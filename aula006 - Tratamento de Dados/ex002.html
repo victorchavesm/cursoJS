@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de Dados</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut minima nihil, mollitia earum voluptas similique voluptatum pariatur iste dicta molestiae quam! Molestiae quaerat eligendi assumenda ex perspiciatis saepe quis dolor!</p>
+
+</body>
+<script>
+    // var n1 = window.prompt('Digite um número: ') // asssim terá uma string
+    // var n2 = window.prompt('Digite outro número: ') // assim terá outra string. 
+    // var s = n1 + n2 // fará concatenação de strings
+    // alert(n1+n2)
+    var n1 = Number.parseInt(window.prompt('Digite um número inteiro: ')) //feita conversão de string para Inteiro
+    var n2 = Number.parseInt(window.prompt('Digite outro número inteiro: '))
+    var s = n1 + n2
+    window.alert('A soma dos valores é ' + s)
+
+    // também pode ser somente Number (o JS que vai decidir para o que converter)
+    var n1 = Number(window.prompt('Digite um número qualquer (pode ser Real): ')) //feita conversão de string para Inteiro
+    var n2 = Number(window.prompt('Digite outro número qualquer (pode ser Real): '))
+    var s = n1 + n2
+    window.alert('A soma dos valores é ' + s)
+
+    // conversão para String -> String(n) ou n.toString()
+    window.alert('A soma dos valores é ' + String(s)) 
+</script>
+</html>

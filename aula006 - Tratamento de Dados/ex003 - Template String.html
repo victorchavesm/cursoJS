@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tratamento de Dados</title>
     <style>
         body {
             background-color: black;
@@ -17,8 +17,17 @@
 
 </body>
 <script>
-    window.alert('Olá, mundo!')
-    window.confirm('teste')
-    window.prompt('Qual seu nome?')
+
+    // TEMPLATE STRING -> USA CRASE 
+    // ${n} -> placeholder
+    var n1 = Number(window.prompt('Digite um número qualquer (pode ser Real): ')) 
+    var n2 = Number(window.prompt('Digite outro número qualquer (pode ser Real): '))
+    var s = n1 + n2
+    window.alert(`A soma de ${n1} + ${n2} é ${s}`)
+
+    // s.lenght -> comprimento da string
+    // s.toUpperCase -> para converter maiusculas
+    // s.toLowerCase -> minusculas
+
 </script>
 </html>
