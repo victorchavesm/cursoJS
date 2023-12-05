@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hora do dia</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
-<body>
+<body onload="carregar()">
     <header>
         <h1>Hora do dia</h1>
     </header>
     <section>
-        <div>
-            <img src="imagens/manha.png" alt="Foto do sol nascendo">
+        <div id="msg">
+            Aqui vai aparecer a mensagem
         </div>
-        <div>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa adipisci hic, voluptatibus saepe nobis repellat voluptatem, nihil deserunt provident accusantium nemo! Maxime suscipit facilis error repudiandae, culpa quod! Vero, quod?
+        <div id="foto">
+            <img id="imagem" src="imagens/manha.png" alt="Foto do sol nascendo">
         </div>
     </section>
     <footer>
-        <p>Feito por Victor Chaves</p>
+        <p>Feito por <a href="https://github.com/victorchavesm" target="_blank">Victor Chaves</a></p>
     </footer>
 
     <script src="javascript/script.js"></script>

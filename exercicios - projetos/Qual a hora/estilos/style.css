@@ -6,14 +6,22 @@
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(72, 72, 163);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(71, 71, 163);
 
 }
 
 header {
     text-align: center;
     color: white;
+    text-shadow: 1px 1px 1px black;
+    margin: 10px;
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
 }
 
 section {
@@ -25,9 +33,30 @@ section {
     margin: auto;
 }
 
+
+
 footer {
     text-align: center;
     font-style: italic;
-    font-size: 1.3em;
+    font-size: 1em;
     color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.27);
+    border-radius: 5px;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    padding: 0px 2px;
+    transition: 0.5s;
+    color: rgb(69, 239, 146);
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
 }
