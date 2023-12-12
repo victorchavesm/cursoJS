@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contagem</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>
+                <label for="start">Início:</label>
+                <input type="number" name="inicio" id="start">
+            </p>
+
+            <p>
+                <label for="end">Fim:</label>
+                <input type="number" name="fim" id="end">
+            </p>
+
+            <p>
+                <label for="step">Passo:</label>
+                <input type="number" name="passo" id="step">
+            </p>
+
+            <p>
+                <input type="button" value="Contar" onclick="contar()">
+            </p>
+        </div>
+        <div id="res">
+            Aqui vai a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>Feito por <a href="https://github.com/victorchavesm" target="_blank">Victor Chaves</a></p>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
