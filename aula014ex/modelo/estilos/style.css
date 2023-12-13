@@ -30,8 +30,9 @@ section div > p {
     margin-top: 10px;
 }
 
-section > div > button {
-    margin: 10px 0px;
+section > div > p > input#button {
+    padding: 3px;
+    margin-bottom: 5px;
 }
 
 footer {
