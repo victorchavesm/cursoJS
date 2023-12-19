@@ -20,4 +20,4 @@ console.log(num.sort())
 console.log(num.sort(function(a,b){return a - b}))
 
 
-console.log(num[0, 2])
+console.log(num)
